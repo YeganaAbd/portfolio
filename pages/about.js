@@ -1,3 +1,10 @@
+import NavMenu from "../components/NavMenu";
+
 export default function About() {
-  return <div>Hello</div>;
+  return (
+    <>
+      <NavMenu />
+      <div>Hello</div>
+    </>
+  );
 }
