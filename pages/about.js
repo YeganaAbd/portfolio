@@ -4,7 +4,7 @@ export default function About() {
   return (
     <>
       <NavMenu />
-      <div>Hello</div>
+      <div>Hi, I am Yegana</div>
     </>
   );
 }
