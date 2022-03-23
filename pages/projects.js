@@ -25,9 +25,12 @@ export default function Projects() {
           {project.map((pr) => {
             return (
               <Carousel.Item className={styles.carouselItem} key={pr.id}>
-                <h2>{pr.projectName}</h2>
-                <p>{pr.description}</p>
-                <p>{pr.techStack}</p>
+                <h1>{pr.projectName}</h1>
+                <h5>
+                  <b>Tech Stack:</b> {pr.techStack}
+                </h5>
+                <h5> Project Description </h5>
+                <p className={styles.desc}>{pr.description}</p>
               </Carousel.Item>
             );
           })}

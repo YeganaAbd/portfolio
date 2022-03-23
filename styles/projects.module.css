@@ -1,9 +1,29 @@
 .container {
-  background-color: rgb(196, 183, 183);
 }
 .carousel {
-  background-color: green;
-  width: 900px;
-  height: 500px;
+  background-color: rgb(238, 153, 153);
+  width: 54rem;
+  height: 30rem;
   margin: auto;
+  margin-top: 0.8rem;
+}
+
+.carouselItem {
+  margin-top: 6rem;
+  text-align: center;
+}
+
+.desc {
+  margin: 0 6rem;
+}
+
+@media (max-width: 700px) {
+  .carousel {
+    max-width: 90%;
+    padding: 6rem;
+    height: 100%;
+  }
+  .desc {
+    margin: 0;
+  }
 }
