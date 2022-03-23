@@ -16,22 +16,18 @@ export default function Projects() {
     <>
       <NavMenu />
       <div className={styles.container}>
-        <Carousel activeIndex={index} onSelect={handleSelect} height="500px">
-          {project.map((pr, index) => {
+        <Carousel
+          className={styles.carousel}
+          activeIndex={index}
+          onSelect={handleSelect}
+          height="500px"
+        >
+          {project.map((pr) => {
             return (
-              <Carousel.Item key={index}>
-                <Image
-                  width="200px"
-                  height="200px"
-                  className="d-block w-50 h-60"
-                  src={pr.src}
-                  alt={`${index}} slide`}
-                />
-                <Carousel.Caption>
-                  <h2>{pr.projectName}</h2>
-                  <p>{pr.description}</p>
-                  <p>{pr.techStack}</p>
-                </Carousel.Caption>
+              <Carousel.Item className={styles.carouselItem} key={pr.id}>
+                <h2>{pr.projectName}</h2>
+                <p>{pr.description}</p>
+                <p>{pr.techStack}</p>
               </Carousel.Item>
             );
           })}

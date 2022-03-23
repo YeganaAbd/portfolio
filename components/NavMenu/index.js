@@ -29,6 +29,12 @@ export default function NavMenu() {
           >
             Projects
           </Nav.Link>
+          <Nav.Link
+            style={{ marginRight: "20px", fontSize: "24px" }}
+            href="/contact"
+          >
+            Contact
+          </Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
