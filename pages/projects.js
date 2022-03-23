@@ -17,6 +17,7 @@ export default function Projects() {
       <NavMenu />
       <div className={styles.container}>
         <Carousel
+          variant="dark"
           className={styles.carousel}
           activeIndex={index}
           onSelect={handleSelect}
