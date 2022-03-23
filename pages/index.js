@@ -7,7 +7,10 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <NavMenu />
-      <div>Hello, I am Yegana Abdullayeva</div>
+      <h1 className={styles.title}>
+        Hello, I am Yegana Abdullayeva. I am a software developer based in
+        London.
+      </h1>
     </div>
   );
 }
