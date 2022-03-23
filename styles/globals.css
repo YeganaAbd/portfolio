@@ -14,9 +14,3 @@ a {
 * {
   box-sizing: border-box;
 }
-
-.navdiv {
-  display: flex;
-  justify-content: flex-end;
-  background-color: red;
-}

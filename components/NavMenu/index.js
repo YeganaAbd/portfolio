@@ -9,7 +9,7 @@ export default function NavMenu() {
       className={styles.nav}
       collapseOnSelect
       expand="lg"
-      bg="light"
+      bg="warning"
       variant="light"
       expand={false}
     >
