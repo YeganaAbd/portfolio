@@ -26,11 +26,12 @@ export default function Projects() {
           {project.map((pr) => {
             return (
               <Carousel.Item className={styles.carouselItem} key={pr.id}>
-                <h1>{pr.projectName}</h1>
-                <h5>
-                  <b>Tech Stack:</b> {pr.techStack}
-                </h5>
-                <h5> Project Description </h5>
+                <div className={styles.info}>
+                  <h1>{pr.projectName}</h1>
+                  <h4>Teck stack</h4>
+                  <p>{pr.techStack}</p>
+                  <h5> Project Description </h5>
+                </div>
                 <p className={styles.desc}>{pr.description}</p>
               </Carousel.Item>
             );
