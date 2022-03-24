@@ -1,6 +1,7 @@
 import NavMenu from "../components/NavMenu";
 import styles from "../styles/Contact.module.css";
 import Button from "react-bootstrap/Button";
+import Link from "next/link";
 
 export default function Contact() {
   return (
@@ -15,20 +16,24 @@ export default function Contact() {
           </p>
         </div>
         <div className={styles.connect}>
-          <Button variant="warning" size="lg">
-            Github
-          </Button>
-          <Button variant="secondary" size="lg">
-            Linkedin
-          </Button>
-          <Button variant="outline-primary" size="lg">
-            <a
-              styles={{ backgroundColor: "blue" }}
-              href="mailto:abd.yegane@gmail.com"
-            >
+          <Link href="https://github.com/YeganaAbd" passHref>
+            <Button variant="warning" size="lg">
+              Github
+            </Button>
+          </Link>
+          <Link
+            href="https://www.linkedin.com/in/yegana-abdullayeva-98425645/"
+            passHref
+          >
+            <Button variant="secondary" size="lg">
+              Linkedin
+            </Button>
+          </Link>
+          <Link href="mailto:abd.yegane@gmail.com" passHref>
+            <Button variant="danger" size="lg">
               Email
-            </a>
-          </Button>
+            </Button>
+          </Link>
         </div>
       </div>
     </>
