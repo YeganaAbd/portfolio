@@ -2,8 +2,19 @@ import NavMenu from "../components/NavMenu";
 import styles from "../styles/Contact.module.css";
 import Button from "react-bootstrap/Button";
 import Link from "next/link";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import {
+  fab,
+  faTwitterSquare,
+  faFacebook,
+  faLinkedin,
+  faGithub,
+} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FaEnvelope } from "react-icons/fa";
 
 export default function Contact() {
+  library.add(fab, faTwitterSquare, faFacebook, faLinkedin, faGithub);
   return (
     <>
       <NavMenu />
@@ -17,22 +28,27 @@ export default function Contact() {
         </div>
         <div className={styles.connect}>
           <Link href="https://github.com/YeganaAbd" passHref>
-            <Button variant="warning" size="lg">
-              Github
-            </Button>
+            <FontAwesomeIcon
+              icon={["fab", "github"]}
+              size="6x"
+              style={{ cursor: "pointer" }}
+            />
           </Link>
           <Link
             href="https://www.linkedin.com/in/yegana-abdullayeva-98425645/"
             passHref
           >
-            <Button variant="secondary" size="lg">
-              Linkedin
-            </Button>
+            <FontAwesomeIcon
+              icon={["fab", "linkedin"]}
+              size="6x"
+              style={{ color: "#0e76a8", cursor: "pointer" }}
+            />
           </Link>
           <Link href="mailto:abd.yegane@gmail.com" passHref>
-            <Button variant="danger" size="lg">
-              Email
-            </Button>
+            <FaEnvelope
+              size={100}
+              style={{ color: "#B23121", cursor: "pointer" }}
+            />
           </Link>
         </div>
       </div>
