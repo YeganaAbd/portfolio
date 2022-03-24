@@ -1,14 +1,18 @@
-.contact {
-  float: left;
-  margin: 6rem;
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 6rem;
   width: 40rem;
   height: 35rem;
+}
+.contact {
+  /* float: left; */
   font-size: 24px;
 }
 
 .connect {
-  float: right;
-  margin: 6rem;
-  width: 40rem;
-  height: 35rem;
+}
+.h1 {
+  color: rgb(153, 153, 29);
 }
