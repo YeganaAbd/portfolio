@@ -28,9 +28,9 @@ export default function Projects() {
               <Carousel.Item className={styles.carouselItem} key={pr.id}>
                 <div className={styles.info}>
                   <h1 className={styles.projectName}>{pr.projectName}</h1>
-                  <h4>Teck stack</h4>
-                  <p>{pr.techStack}</p>
-                  <h5> Project Description </h5>
+                  <h4 className={styles.subTitle}>Teck stack</h4>
+                  <p className={styles.techStack}>{pr.techStack}</p>
+                  <h4 className={styles.subTitle}> Project Description </h4>
                 </div>
                 <p className={styles.desc}>{pr.description}</p>
               </Carousel.Item>
