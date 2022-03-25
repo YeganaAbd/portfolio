@@ -30,7 +30,7 @@ export default function Contact() {
           <Link href="https://github.com/YeganaAbd" passHref>
             <FontAwesomeIcon
               icon={["fab", "github"]}
-              size="6x"
+              size="4x"
               style={{ cursor: "pointer" }}
             />
           </Link>
@@ -40,13 +40,13 @@ export default function Contact() {
           >
             <FontAwesomeIcon
               icon={["fab", "linkedin"]}
-              size="6x"
+              size="4x"
               style={{ color: "#0e76a8", cursor: "pointer" }}
             />
           </Link>
           <Link href="mailto:abd.yegane@gmail.com" passHref>
             <FaEnvelope
-              size={100}
+              size={70}
               style={{ color: "#B23121", cursor: "pointer" }}
             />
           </Link>
