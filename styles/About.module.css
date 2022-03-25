@@ -1,0 +1,15 @@
+.aboutContainer {
+  margin: 6rem;
+  line-height: 1.8rem;
+}
+
+.about {
+  max-width: 50rem;
+  max-height: 30rem;
+  font-size: 22px;
+}
+
+.h1 {
+  color: rgb(153, 153, 29);
+  font-size: 46px;
+}
