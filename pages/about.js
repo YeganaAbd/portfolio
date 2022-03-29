@@ -1,5 +1,5 @@
 import NavMenu from "../components/NavMenu";
-import Link from "next/link";
+import NextLink from "next/link";
 import Button from "react-bootstrap/Button";
 import styles from "../styles/About.module.css";
 export default function About() {
@@ -20,14 +20,13 @@ export default function About() {
           people&apos;s lives through software. You can view my resume here:
         </p>
 
-        <Link
+        <NextLink
           download
           href="https://soc-bootcamper-showcase-media.s3.eu-west-2.amazonaws.com/Yegana_Abdullayeva_10a601f6cd.pdf"
           passHref
         >
           <Button variant="warning">Resume</Button>
-          {/* </Link> */}
-        </Link>
+        </NextLink>
       </div>
     </>
   );

@@ -1,6 +1,6 @@
 import NavMenu from "../components/NavMenu";
 import styles from "../styles/Contact.module.css";
-import Link from "next/link";
+import NextLink from "next/link";
 import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 export default function Contact() {
   return (
@@ -15,10 +15,10 @@ export default function Contact() {
           </p>
         </div>
         <div className={styles.connect}>
-          <Link href="https://github.com/YeganaAbd" passHref>
+          <NextLink href="https://github.com/YeganaAbd" passHref>
             <FaGithub size={70} style={{ cursor: "pointer" }} />
-          </Link>
-          <Link
+          </NextLink>
+          <NextLink
             href="https://www.linkedin.com/in/yegana-abdullayeva-98425645/"
             passHref
           >
@@ -26,13 +26,13 @@ export default function Contact() {
               size={70}
               style={{ color: "#0e76a8", cursor: "pointer" }}
             />
-          </Link>
-          <Link href="mailto:abd.yegane@gmail.com" passHref>
+          </NextLink>
+          <NextLink href="mailto:abd.yegane@gmail.com" passHref>
             <FaEnvelope
               size={70}
               style={{ color: "#B23121", cursor: "pointer" }}
             />
-          </Link>
+          </NextLink>
         </div>
       </div>
     </>
