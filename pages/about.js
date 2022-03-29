@@ -1,5 +1,5 @@
 import NavMenu from "../components/NavMenu";
-import Link from "next/Link";
+import Link from "next/link";
 import Button from "react-bootstrap/Button";
 import styles from "../styles/About.module.css";
 export default function About() {
