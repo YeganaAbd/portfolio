@@ -9,7 +9,7 @@ export default function Contact() {
       <div className={styles.contactContainer}>
         <div className={styles.contact}>
           <h1 className={styles.h1}>Get in Touch</h1>
-          <p>
+          <p className={styles.text}>
             Thank you for visiting my portfolio page. If you would like to find
             out more, then feel free to contact me.
           </p>

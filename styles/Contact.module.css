@@ -4,8 +4,8 @@
   flex-wrap: wrap;
   margin: 6rem;
   margin-left: 10rem;
-  width: 45rem;
-  height: 35rem;
+  max-width: 40rem;
+  max-height: 35rem;
   line-height: 2.5rem;
 }
 .contact {
@@ -23,4 +23,24 @@
   color: rgb(153, 153, 29);
   font-size: 46px;
   margin-bottom: 2rem;
+}
+
+.text {
+  font-size: 22px;
+  float: left;
+}
+@media (max-width: 1100px) {
+  .contactContainer {
+    margin: 1rem;
+  }
+  .contact {
+    font-size: 18px;
+  }
+
+  .h1 {
+    font-size: 36px;
+  }
+  .connect {
+    margin-left: 2rem;
+  }
 }

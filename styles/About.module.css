@@ -13,3 +13,12 @@
   color: rgb(153, 153, 29);
   font-size: 46px;
 }
+
+@media (max-width: 600px) {
+  .aboutContainer {
+    margin: 1rem;
+  }
+  .about {
+    font-size: 18px;
+  }
+}
