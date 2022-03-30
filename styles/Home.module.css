@@ -115,10 +115,18 @@
   text-align: center;
   width: 50%;
   margin: 6rem;
+  font-size: 4rem;
 }
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+  .title {
+    font-size: 3rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 5rem;
+    width: 95%;
   }
 }
