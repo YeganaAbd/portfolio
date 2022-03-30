@@ -37,6 +37,10 @@
   font-size: 50px;
 }
 @media (max-width: 700px) {
+  .container {
+    margin: auto;
+    margin-top: 5rem;
+  }
   .carousel {
     max-width: 90%;
     padding: 6rem;
@@ -44,5 +48,21 @@
   }
   .desc {
     margin: 0;
+  }
+  .carouselItem {
+    margin: auto;
+    width: 100%;
+  }
+  .info {
+    margin: auto;
+  }
+  .projectName {
+    font-size: 30px;
+  }
+  .techStack {
+    font-size: 18px;
+  }
+  .desc {
+    font-size: 16px;
   }
 }
