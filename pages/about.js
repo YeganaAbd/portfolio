@@ -2,11 +2,16 @@ import NavMenu from "../components/NavMenu";
 import NextLink from "next/link";
 import Button from "react-bootstrap/Button";
 import styles from "../styles/About.module.css";
+import { motion } from "framer-motion";
+
 export default function About() {
   return (
     <>
       <NavMenu />
-      <div className={styles.aboutContainer}>
+      <motion.div
+        className={styles.aboutContainer}
+        animate={{ x: [-50, 50], opacity: [0, 1] }}
+      >
         <div>
           <h1 className={styles.h1}>About me</h1>
           <p className={styles.about}>
@@ -22,7 +27,11 @@ export default function About() {
           </p>
         </div>
 
-        <div className={styles.resume}>
+        <motion.div
+          className={styles.resume}
+          animate={{ y: [100, 0], opacity: [0, 1] }}
+          transition={{ delay: 0.5 }}
+        >
           <NextLink
             download
             href="https://soc-bootcamper-showcase-media.s3.eu-west-2.amazonaws.com/Yegana_Abdullayeva_10a601f6cd.pdf"
@@ -30,8 +39,8 @@ export default function About() {
           >
             <Button variant="warning">Resume</Button>
           </NextLink>
-        </div>
-      </div>
+        </motion.div>
+      </motion.div>
     </>
   );
 }

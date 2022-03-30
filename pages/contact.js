@@ -2,11 +2,16 @@ import NavMenu from "../components/NavMenu";
 import styles from "../styles/Contact.module.css";
 import NextLink from "next/link";
 import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
+import { motion } from "framer-motion";
+
 export default function Contact() {
   return (
     <>
       <NavMenu />
-      <div className={styles.contactContainer}>
+      <motion.div
+        className={styles.contactContainer}
+        animate={{ x: [-50, 50], opacity: [0, 1] }}
+      >
         <div className={styles.contact}>
           <h1 className={styles.h1}>Get in Touch</h1>
           <p className={styles.text}>
@@ -14,7 +19,11 @@ export default function Contact() {
             out more, then feel free to contact me.
           </p>
         </div>
-        <div className={styles.connect}>
+        <motion.div
+          className={styles.connect}
+          animate={{ y: [100, 0], opacity: [0, 1] }}
+          transition={{ delay: 0.5 }}
+        >
           <NextLink href="https://github.com/YeganaAbd" passHref>
             <FaGithub size={70} style={{ cursor: "pointer" }} />
           </NextLink>
@@ -33,8 +42,8 @@ export default function Contact() {
               style={{ color: "#B23121", cursor: "pointer" }}
             />
           </NextLink>
-        </div>
-      </div>
+        </motion.div>
+      </motion.div>
     </>
   );
 }
