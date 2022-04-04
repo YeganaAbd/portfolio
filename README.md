@@ -4,11 +4,13 @@ A portfolio page to showcase some of my projects.
 
 ### Technologies
 
-NextJs
-Bootstrap
-Framer Motion,
-CSS modules
+````NextJs,
+```Bootstrap,
+```Framer Motion,
+```CSS modules
 
-## Link
+### Link
 
 https://yeganaabdullayeva.vercel.app/
+
+````
