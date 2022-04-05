@@ -10,7 +10,7 @@ export default function Contact() {
       <NavMenu />
       <motion.div
         className={styles.contactContainer}
-        animate={{ x: [-50, 50], opacity: [0, 1] }}
+        animate={{ x: [-50, 0], opacity: [0, 1] }}
       >
         <div className={styles.contact}>
           <h1 className={styles.h1}>Get in Touch</h1>

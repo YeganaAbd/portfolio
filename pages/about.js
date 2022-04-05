@@ -10,7 +10,7 @@ export default function About() {
       <NavMenu />
       <motion.div
         className={styles.aboutContainer}
-        animate={{ x: [-50, 50], opacity: [0, 1] }}
+        animate={{ x: [-50, 0], opacity: [0, 1] }}
       >
         <div>
           <h1 className={styles.h1}>About me</h1>
@@ -34,7 +34,8 @@ export default function About() {
         >
           <NextLink
             download
-            href="https://soc-bootcamper-showcase-media.s3.eu-west-2.amazonaws.com/Yegana_Abdullayeva_10a601f6cd.pdf"
+            target="_blank"
+            href="https://www.canva.com/design/DAE4X4nutYY/FLsZ0QtJS8GVNbCx4ER8sw/view?utm_content=DAE4X4nutYY&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#1"
             passHref
           >
             <Button variant="warning">Resume</Button>
