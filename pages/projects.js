@@ -19,9 +19,22 @@ export default function Projects() {
         <Carousel
           variant="dark"
           className={styles.carousel}
+          controls={true}
           activeIndex={index}
           onSelect={handleSelect}
           height="500px"
+          nextIcon={
+            <span
+              className="carousel-control-next-icon"
+              style={{ backgroundColor: "black" }}
+            />
+          }
+          prevIcon={
+            <span
+              className="carousel-control-prev-icon"
+              style={{ backgroundColor: "black" }}
+            />
+          }
         >
           {project.map((pr) => {
             return (
