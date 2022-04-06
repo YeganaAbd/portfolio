@@ -7,12 +7,13 @@ const projects = [
     techStack:
       "NextJs, NodeJs, Javascript, Auth0, PostgreSQL, Express.js, Auth0, Cypress, jest, supertest",
     link: "https://jellly.netlify.app/",
+    src: "https://github.com/SchoolOfCode/final-project-front-end-jellly-room-6",
   },
   {
     id: 2,
     projectName: "Resource Tracker",
     description:
-      "As a team of three, in one week we built a full-stack user-friendly application to be able to easily reference the learning materials that we have seen in the School of Code bootcamp. We started from scratch and designed our MVP. During this project, we worked on our frontend and backend skills, deployed a full stack application for the first time, and worked as a team using version control (git branching, pull request, merge requests). ",
+      "As a team of three, in one week we built a full-stack user-friendly application to be able to easily reference the learning materials that we have seen in the School of Code bootcamp. We started from scratch, designed and implemented our MVP. At the end of the week, we presented it to the broader audince. ",
     techStack: "React, CSS, NodeJs, PostgreSQL",
     link: "",
     src: "",
@@ -21,37 +22,36 @@ const projects = [
     id: 3,
     projectName: "Todo-List",
     description:
-      "I decided to build fullstack todolist app to practise all skills that I learned. I used React for frontend, and NodeJs for backend, PostreSQL for storage. I deployed backend to Heroku, and frontend to Netlify. ",
+      "I build fullstack todolist app to practise all skills that I learned. I used React for frontend, and NodeJs for backend, PostreSQL for storage. I deployed backend to Heroku, and frontend to Netlify.",
     techStack: "React, CSS, Ant Design, NodeJs, PostgreSQL",
-    link: "https://github.com/YeganaAbd/recipe_app",
-    src: "https://todolist-play.netlify.app/",
+    link: "https://todolist-play.netlify.app/",
+    src: "https://github.com/YeganaAbd/recipe_app",
   },
 
   {
     id: 4,
     projectName: "Weather App",
     description:
-      "During the School of Code bootcamp, we had Christmas break, and I decided to work on my skills, and created Weather App. The user can search city and the weather information of that city will be displayed.",
+      "I used public API to fetch weather data. The user can search city and the weather information of that city will be displayed.",
     techStack: "Html, Css, Javascript",
-    link: "https://github.com/YeganaAbd/weather-api",
-    src: "",
+    link: "",
+    src: "https://github.com/YeganaAbd/weather-api",
   },
   {
     id: 5,
     projectName: "Google Clone",
-    description:
-      "During Christmas break, I created Google clone, to improve my CSS.",
+    description: "I created Google clone in order to improve my CSS.",
     techStack: "HTML, Css",
-    link: "https://github.com/YeganaAbd/Google-clone",
-    src: "",
+    link: "",
+    src: "https://github.com/YeganaAbd/Google-clone",
   },
   {
     id: 6,
     projectName: "Tic-tac-toe",
-    description: "During Christmas break, created tic-tac-toe game",
+    description: "I created traditional tic-tac-toe game. It",
     techStack: "Html, Css, Javascript",
     link: "https://tender-dubinsky-cd8ffb.netlify.app/",
-    src: "/tic-tac-js.png",
+    src: "https://github.com/YeganaAbd/Tic-Tac-Toe",
   },
   {
     id: 7,
@@ -60,16 +60,16 @@ const projects = [
       "Created fun tic-tac-toe(Tom and Jerry) game in react to practise my react skills.  ",
     techStack: "React, CSS",
     link: "https://optimistic-boyd-bacd74.netlify.app/",
-    src: "/tic-tac-react.png",
+    src: "https://github.com/YeganaAbd/tic-tac-toe-react",
   },
   {
     id: 8,
     projectName: "Recipe App",
     description:
-      "While learning React,I decided to create Recipe App. I used CSS modules and custom hooks to fo fetching from an API. The user can search for recipes and view them.",
+      "While learning React,I decided to create Recipe App. I used CSS modules and custom hooks to fetch from an API. The user can search for recipes and view them.",
     techStack: "React, CSS modules",
-    link: "https://github.com/YeganaAbd/recipe_app",
-    src: "",
+    link: "",
+    src: "https://github.com/YeganaAbd/recipe_app",
   },
 ];
 export default projects;

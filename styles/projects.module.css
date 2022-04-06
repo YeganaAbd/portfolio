@@ -27,6 +27,14 @@
   margin: 0 6rem;
   font-size: 18px;
 }
+.links {
+  padding: 1rem 0rem;
+  display: flex;
+  justify-content: flex-start;
+}
+.links a {
+  margin-left: 1rem;
+}
 .techStack {
   font-size: 20px;
 }
